@@ -15,8 +15,8 @@ def line(line_array)
      
      
      end
-  detail_line
+  detail_line_string = detail_line.join(" ")
   end
   
-  "The line is currently: " 
+  "The line is currently: " + detail_line_string
 end  
