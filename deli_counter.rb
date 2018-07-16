@@ -18,5 +18,5 @@ def line(line_array)
   detail_line
   end
   
-  "The line is currently: " + detail_line
+  "The line is currently: " 
 end  
