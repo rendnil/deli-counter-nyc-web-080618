@@ -15,6 +15,7 @@ def line(line_array)
      
      
      end
+  detail_line
   detail_line_string = detail_line.join(" ")
   end
   
