@@ -27,8 +27,20 @@ def take_a_number(line_array, name)
   line_array.push(name)
   puts "Welcome, #{name}. You are number #{line_array.size()} in line."
   
+
+end
+
+
+def now_serving(line_array)
+
+  if line_array.size()==0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{line_array[0]}"
+    line_array.shift()
   
   
-  
+  end
+
   
 end
