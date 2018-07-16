@@ -19,3 +19,15 @@ def line(line_array)
      puts "The line is currently: #{detail_line_string}"
    end
 end  
+
+
+
+def take_a_number(line_array, name)
+  
+  
+  
+  
+  
+  
+  
+end
